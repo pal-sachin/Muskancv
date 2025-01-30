@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.resume-container {
+    display: flex;
+    width: 850px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Sidebar */
+.left-section {
+    background: #222;
+    color: white;
+    width: 30%;
+    padding: 30px;
+}
+
+.left-section h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.left-section h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.left-section ul {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.left-section ul li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Right Section */
+.right-section {
+    width: 70%;
+    padding: 30px;
+    color: black;
+}
+
+.profile-summary {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.right-section p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.right-section ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.right-section ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+h3 span {
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+}
